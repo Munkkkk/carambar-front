@@ -1,0 +1,20 @@
+body {
+    text-align: center;
+    font-family: sans-serif;
+    margin: 50px;
+    background-color: #fff8dc;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  #joke-display {
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
