@@ -49,7 +49,7 @@ npm run dev
 **Frontend** :
 ```bash
 git clone https://github.com/Munkkkk/carambar-front.git
-replace 'https://cdaproject.onrender.com/api/blagues' with 'http://localhost:3000/api/blagues' for local start
+
 ```
 Puis ouvrir `index.html` directement dans votre navigateur ou utiliser une extension comme "Live Server".
 
