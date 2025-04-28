@@ -1,5 +1,10 @@
+const apiUrl = window.location.hostname.includes('localhost')
+  ? 'http://localhost:3000/api/blagues'
+  : 'https://cdaproject.onrender.com/api/blagues';
+
+
 function getRandomJoke() {
-fetch('https://cdaproject.onrender.com/api/blagues/random')
+fetch(apiUrl + '/random')
   .then(response => response.json())
   .then(data => {
     console.log(data);  
